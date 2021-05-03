@@ -7,5 +7,8 @@ namespace levelup_csharp.Models
 {
     public class Gamer
     {
+        public int Id { get; set; }
+        public int UserId { get; set; }
+        public string Bio { get; set; }
     }
 }
